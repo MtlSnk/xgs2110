@@ -52,7 +52,7 @@ After booting, the devices lands at a Linux shell: \
 
 
 - [Boot log.](./logs/cleaned-boot.log)
-- [Boot log with the fibre interface connected.](./logs/cleaned-boot.log)
+- [Boot log with the fibre interface connected.](./logs/cleaned-boot-with-gpon.log)
 
 
 ### MAC address / PON serialnumber
