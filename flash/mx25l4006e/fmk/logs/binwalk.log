@@ -1,0 +1,9 @@
+
+Scan Time:     2023-01-12 21:17:59
+Target File:   /home/mtlsnk/proj/xgs2110/xgs2110-mx25l4006e.bin
+MD5 Checksum:  52d02b8d7f2af3a8b8d2a922b4b6c7ae
+Signatures:    344
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+279256        0x442D8         YAFFS filesystem
+

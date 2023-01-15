@@ -1,0 +1,1008 @@
+Press 'x' or 'b' key in 1 secs to enter or skip bootloader upgrade.
+Initializing cgroup subsys cpuset
+Initializing cgroup subsys cpu
+Initializing cgroup subsys cpuacct
+Linux version 4.4.115 (root@interos-build-everest) (gcc version 4.6.3 (Buildroot 2015.08.1-g0b1c64e) ) #12 SMP Wed Mar 9 12:11:55 CET 2022
+
+qdma_res:8 MB
+memsize:248MB
+EcoNet EN7580 SOC prom init
+FAIL: add highmem for GET_DRAM_SIZE==256MB
+bootconsole [early0] enabled
+CPU0 revision is: 0001a12c (MIPS interAptiv (multi))
+Determined physical RAM map:
+ memory: 0f7fe000 @ 00002000 (usable)
+Wasting 72 bytes for tracking 2 unused pages
+MIPS: machine is econet,en751221
+Zone ranges:
+  Normal   [mem 0x0000000000002000-0x000000000f7fffff]
+  HighMem  empty
+Movable zone start for each node
+Early memory node ranges
+  node   0: [mem 0x0000000000002000-0x000000000f7fffff]
+Initmem setup node 0 [mem 0x0000000000002000-0x000000000f7fffff]
+Detected 3 available secondary CPU(s)
+Primary instruction cache 32kB, VIPT, 4-way, linesize 32 bytes.
+Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 bytes
+MIPS secondary cache 512kB, 8-way, linesize 32 bytes.
+PERCPU: Embedded 9 pages/cpu @81234000 s8192 r8192 d20480 u36864
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 62928
+Kernel command line: 
+log_buf_len individual max cpu contribution: 4096 bytes
+log_buf_len total cpu_extra contributions: 12288 bytes
+log_buf_len min size: 16384 bytes
+log_buf_len: 32768 bytes
+early log buf free: 14032(85%)
+PID hash table entries: 1024 (order: 0, 4096 bytes)
+Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Writing ErrCtl register=00000000
+Readback ErrCtl register=00000000
+nmi base is 8129c200
+Memory: 243160K/253944K available (5908K kernel code, 212K rwdata, 1152K rodata, 200K init, 647K bss, 10784K reserved, 0K cma-reserved, 0K highmem)
+SLUB: HWalign=32, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Hierarchical RCU implementation.
+	Build-time adjustment of leaf fanout to 32.
+NR_IRQS:64
+
+
+tc3162_time_init: Init bus timeout and watchdog
+
+CPU frequency 1300.02 MHz
+plat_time_init: Entered, mips_timer_ack ptr is [800089fc]
+
+ Using 200.000 MHz high precision timer.
+clocksource: MIPS: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 9556302233 ns
+sched_clock: 32 bits at 200MHz, resolution 5ns, wraps every 10737418237ns
+console [ttyS0] enabled
+console [ttyS0] enabled
+bootconsole [early0] disabled
+bootconsole [early0] disabled
+Calibrating delay loop... 852.78 BogoMIPS (lpj=4263936)
+pid_max: default: 32768 minimum: 301
+Security Framework initialized
+Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Initializing cgroup subsys io
+Initializing cgroup subsys memory
+Initializing cgroup subsys devices
+Initializing cgroup subsys freezer
+Initializing cgroup subsys debug
+launch: starting cpu1
+launch: cpu1 gone!
+Primary instruction cache 32kB, VIPT, 4-way, linesize 32 bytes.
+Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 bytes
+MIPS secondary cache 512kB, 8-way, linesize 32 bytes.
+CPU1 revision is: 0001a12c (MIPS interAptiv (multi))
+Synchronize counters for CPU 1: done.
+launch: starting cpu2
+launch: cpu2 gone!
+Primary instruction cache 32kB, VIPT, 4-way, linesize 32 bytes.
+Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 bytes
+MIPS secondary cache 512kB, 8-way, linesize 32 bytes.
+CPU2 revision is: 0001a12c (MIPS interAptiv (multi))
+Synchronize counters for CPU 2: done.
+launch: starting cpu3
+launch: cpu3 gone!
+Primary instruction cache 32kB, VIPT, 4-way, linesize 32 bytes.
+Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 bytes
+MIPS secondary cache 512kB, 8-way, linesize 32 bytes.
+CPU3 revision is: 0001a12c (MIPS interAptiv (multi))
+Synchronize counters for CPU 3: done.
+Brought up 4 CPUs
+clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+futex hash table entries: 1024 (order: 3, 32768 bytes)
+NET: Registered protocol family 16
+Initializing Ecnt Event Netlink Socket
+
+Initializing Econet Event Netlink Socket nl_sk = 8f5bc400
+
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+NET: Registered protocol family 8
+NET: Registered protocol family 20
+clocksource: Switched to clocksource MIPS
+NET: Registered protocol family 2
+TCP established hash table entries: 2048 (order: 1, 8192 bytes)
+TCP bind hash table entries: 2048 (order: 2, 16384 bytes)
+TCP: Hash tables configured (established 2048 bind 2048)
+UDP hash table entries: 256 (order: 1, 8192 bytes)
+UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+NET: Registered protocol family 1
+TC3162 hardware watchdog module loaded.
+squashfs: version 4.0 (2009/01/31) Phillip Lougher
+ntfs: driver 2.1.32 [Flags: R/W DEBUG].
+jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+io scheduler noop registered (default)
+ttyS0 at I/O 0xbfbf0000 (irq = 5, base_baud = 7200) is a TC3162
+ECNT ring buffer init success
+brd: module loaded
+
+SPI Flash Init Start
+Found no SPI flash device
+IS_SPIFLASH=0x0, IS_NANDFLASH=0x1, (0xBFA10114)=0x6)
+Set SPI Clock to 50 Mhz
+spi_nand_probe: mfr_id=0xef, dev_id=0xaa
+Using Flash ECC.
+Detected SPI NAND Flash : _SPI_NAND_DEVICE_ID_W25N01G, Flash Size=0x8000000
+spi nand flash
+tc3162: flash device 0x01000000 at 0x1c000000
+EN7512 mtd init: spi nand probe enter
+[spi_nand_setup] : Enter 
+nand: device found, Manufacturer ID: 0xef, Chip ID: 0xaa
+nand: Unknown _SPI_NAND_DEVICE_ID_W25N01G
+nand: 128 MiB, SLC, erase size: 128 KiB, page size: 2048, OOB size: 64
+nand_scan_ident ok
+[spi_nand_setup]: chip size =  0x8000000, erase_shift=0x11
+bmt pool size: 81 
+BMT & BBT Init Success 
+
+parsing <0[bootloader],0[romfile],25m[tclinux],25m[tclinux_slave],1m[config]>
+partition 8: name <config>, offset ffffffff, size 100000, mask flags 0
+partition 7: name <tclinux_slave>, offset ffffffff, size 1900000, mask flags 0
+partition 4: name <tclinux>, offset ffffffff, size 1900000, mask flags 0
+partition 1: name <romfile>, offset ffffffff, size fffffffe, mask flags 0
+partition 0: name <bootloader>, offset ffffffff, size fffffffe, mask flags 0
+Creating 10 MTD partitions on "EN7512-SPI_NAND":
+0x000000000000-0x000000040000 : "bootloader"
+0x000000040000-0x000000080000 : "romfile"
+0x000000080000-0x0000002f8a5a : "kernel"
+mtd: partition "kernel" doesn't end on an erase block -- force read-only
+0x0000002f8a5a-0x000000e78a5a : "rootfs"
+mtd: partition "rootfs" doesn't start on an erase block boundary -- force read-only
+0x000000080000-0x000001980000 : "tclinux"
+0x000001980000-0x000001bf8a5a : "kernel_slave"
+mtd: partition "kernel_slave" doesn't end on an erase block -- force read-only
+0x000001bf8a5a-0x000002778a5a : "rootfs_slave"
+mtd: partition "rootfs_slave" doesn't start on an erase block boundary -- force read-only
+0x000001980000-0x000003280000 : "tclinux_slave"
+0x000003280000-0x000003380000 : "config"
+0x000006e40000-0x000007000000 : "reservearea"
+
+
+rootfs
+PPP generic driver version 2.4.2
+PPP BSD Compression module registered
+PPP Deflate Compression module registered
+PPP MPPE Compression module registered
+NET: Registered protocol family 24
+USB driver version: 7580.2.20181030
+Read USB impedance setting
+TX_IMP_SEL_SSUSB_P0 0xbfa80910 [28:24]:0x10 
+RX_IMP_SEL_SSUSB_P0 0xbfa80914 [28:24]:0x10 
+INTR_CTRL_SSUSB_P0 0xbfa80b00 [15:10]:0x28 
+TX_IMP_SEL_SSUSB_P1 0xbfa90910 [28:24]:0x10 
+RX_IMP_SEL_SSUSB_P1 0xbfa90914 [28:24]:0x10 
+INTR_CTRL_SSUSB_P1 0xbfa90b00 [15:10]:0x28 
+USB20_INTR_CTRL_P0 0xbfa80304 [23:19]:0x17 
+USB20_INTR_CTRL_P1 0xbfa90304 [23:19]:0x17 
+port 0 u2_slew_rate_cal_7580
+FM_OUT value = 113(0x00000071)
+SR calibration value = 5
+port 1 u2_slew_rate_cal_7580
+FM_OUT value = 114(0x00000072)
+SR calibration value = 5
+xhci-hcd xhci-hcd.0: xHCI Host Controller
+xhci-hcd xhci-hcd.0: new USB bus registered, assigned bus number 1
+xhci-hcd xhci-hcd.0: irq 10, io mem 0x1fb90000
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 1 port detected
+xhci-hcd xhci-hcd.0: xHCI Host Controller
+xhci-hcd xhci-hcd.0: new USB bus registered, assigned bus number 2
+usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+hub 2-0:1.0: USB hub found
+hub 2-0:1.0: 1 port detected
+xhci-hcd xhci-hcd.1: xHCI Host Controller
+xhci-hcd xhci-hcd.1: new USB bus registered, assigned bus number 3
+xhci-hcd xhci-hcd.1: irq 9, io mem 0x1fba0000
+hub 3-0:1.0: USB hub found
+hub 3-0:1.0: 1 port detected
+xhci-hcd xhci-hcd.1: xHCI Host Controller
+xhci-hcd xhci-hcd.1: new USB bus registered, assigned bus number 4
+usb usb4: We don't know the algorithms for LPM for this host, disabling LPM.
+hub 4-0:1.0: USB hub found
+hub 4-0:1.0: 1 port detected
+usbcore: registered new interface driver cdc_acm
+cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+usbcore: registered new interface driver usbserial
+usbcore: registered new interface driver usbserial_generic
+usbserial: USB Serial support registered for generic
+usbcore: registered new interface driver cypress_m8
+usbserial: USB Serial support registered for DeLorme Earthmate USB
+usbserial: USB Serial support registered for HID->COM RS232 Adapter
+usbserial: USB Serial support registered for Nokia CA-42 V2 Adapter
+usbcore: registered new interface driver ftdi_sio
+usbserial: USB Serial support registered for FTDI USB Serial Device
+hidraw: raw HID events driver (C) Jiri Kosina
+usbcore: registered new interface driver usbhid
+usbhid: USB HID core driver
+Netfilter messages via NETLINK v0.30.
+nf_conntrack version 0.5.0 (3799 buckets, 15196 max)
+ctnetlink v0.93: registering with nfnetlink.
+nf_conntrack_rtsp v0.7 loading
+nf_conntrack_rtcp v0.7 loading
+port #0: 8027
+nf_nat_rtsp v0.7 loading
+nf_tables: (c) 2007-2009 Patrick McHardy <kaber@trash.net>
+nf_tables_compat: (c) 2012 Pablo Neira Ayuso <pablo@netfilter.org>
+IPv4 over IPsec tunneling driver
+ip_tables: (C) 2000-2006 Netfilter Core Team
+ipt_CLUSTERIP: ClusterIP Version 0.8 loaded successfully
+Initializing XFRM netlink socket
+NET: Registered protocol family 10
+ip6_tables: (C) 2000-2006 Netfilter Core Team
+sit: IPv6 over IPv4 tunneling driver
+NET: Registered protocol family 17
+NET: Registered protocol family 15
+bridge: automatic filtering via arp/ip/ip6tables has been deprecated. Update your scripts to load br_netfilter if you need this.
+8021q: 802.1Q VLAN Support v1.8
+lib80211: common routines for IEEE802.11 drivers
+tc3162ser_startup 
+VFS: Mounted root (squashfs filesystem) readonly on device 31:3.
+Freeing unused kernel memory: 200K
+open /proc/tc3162/dbg_msg fail
+open /proc/tc3162/dbg_msg fail
+busybox init and set aff=8=
+tc3162ser_startup 
+tc3162ser_startup 
+
+init started:  BusyBox v1.00 (2022.03.09-11:33+0000) multi-call binary
+tc3162ser_startup 
+chmod: /userfs/profile.cfg: Read-only file system
+/lib/modules/4.4.115
+chmod: /userfs/profile.cfg: Read-only file system
+chmod: /userfs/profile.cfg: Read-only file system
+chmod: /userfs/profile.cfg: Read-only file system
+chmod: /userfs/profile.cfg: Read-only file system
+chmod: /userfs/profile.cfg: Read-only file system
+chmod: /userfs/profile.cfg: Read-only file system
+ponTime:OMCI Startup
+chmod: /userfs/profile.cfg: Read-only file system
+attackprotector: loading out-of-tree module taints kernel.
+attackprotector: module license 'Proprietary' taints kernel.
+Disabling lock debugging due to kernel taint
+/lib/modules/4.4.115
+Loading bob table
+Ebtables v2.0 registered
+mtd[readflash]:device=reservearea tclen=262144 tcoffset=786432
+Unlocking reservearea ...
+Reading from reservearea to /tmp/prolinecwmppararead ... 
+
+00000000h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00000010h: FF FF FF FF 45 43 4F 4E 45 54 20 20 20 20 20 20
+00000020h: 20 20 20 20 FF FF FF FF 45 4E 37 35 37 32 20 20
+00000030h: 20 20 20 20 20 20 20 20 FF FF FF FF FF FF FF FF
+00000040h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00000050h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00000060h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00000070h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00000080h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00000090h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+000000a0h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+000000b0h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+000000c0h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+000000d0h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+000000e0h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+000000f0h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00000100h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00000110h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00000120h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00000130h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00000140h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00000150h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00000160h: 26 68 86 43 16 09 00 01 00 01 FF FF FF FF FF FF
+00000170h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+00000180h: 73 75 1D FF CD 01 5E 07 7C 05 C6 01 01 A7 60 04
+00000190h: 02 02 05 01 FF 9D FF FF 17 3C FF FF FF FF FF FF
+000001a0h: 1B 1B EF 00 9D 00 04 01 6A 01 D1 01 0C 01 EF 00
+000001b0h: 00 00 0C 00 82 87 D8 99 D0 74 00 00 7F 69 E8 03
+000001c0h: AD 50 64 00 89 4C 0A 00 EF 4B EF 4B FF FF FF FF
+000001d0h: FF FF FF FF FF 00 00 01 FF FF FF FF FF 01 03 06
+000001e0h: FF FF 00 FF 5A C0 1E FF FE FF FF FF FF FF FF FF
+000001f0h: 34 45 EE 4B 07 08 00 00 00 00 01 FF 01 FF 03 07
+00000200h: 00
+insmod: cannot open module `/lib/modules/tcfullcone.ko': No such file or directory
+insmod: cannot open module `/lib/modules/4.4.115/kernel/net/ipv4/netfilter/ipt_REDIRECT.ko': No such file or directory
+7512 chip select
+cat: /proc/tc3162/sys_chip_type: No such file or directory
+
+error chip id
+
+svchost_parse_print_conf: Path = /lib/libcfg_clisvc.so 
+svchost_parse_print_conf: Entry = svc_cfg_main 
+svchost_parse_print_conf: Param = 111 
+random: nonblocking pool is initialized
+
+BusyBox v1.00 (2022.03.09-11:33+0000) multi-call binary
+
+Usage: cp [OPTION]... SOURCE DEST
+
+/tmp/cfg_load is not exist,left time 300
+svc_cfg_start: ........ 
+Load cfg from file [/var/romfile.cfg] ..... 
+ctromfile.cfg
+TCSUPPORT_IPV6
+Check romfile pass!
+
+mtd[readflash]:device=reservearea tclen=262144 tcoffset=0
+Unlocking reservearea ...
+Reading from reservearea to /tmp/tc_backupromfile ... 
+[BK_ROMFILE_FLAG]/userfs/bin/mtd readflash /tmp/tc_backupromfile 262144 0 reservearea
+
+
+tcaccesslimit version: accesslimit V1.2.0.0 (Nov  9 2020-00:16:41).
+TC3162 LED Manager 0.1 init
+
+
+tcledctrl version: tcledctrl V1.1.0.0 (Mar  9 2022-12:13:09).
+find led.conf error
+
+led path:/userfs/led.conf
+
+ctromfile.cfg
+tccicmd V1.1.0.0 (Mar  9 2022-12:13:13)
+
+
+secure_upgrade init.
+
+secure_upgrade init done.
+svc_cfg_start: ........ ok [20001030]! 
+svchost_get_event_val: get param fail [0] 
+
+
+SIFMaster 0.1 init
+
+===== Interface 0 is ON =====
+===== Interface 1 is ON =====
+
+
+Register sifm cmd
+
+mtd[readflash]:device=reservearea tclen=2576 tcoffset=786432
+Unlocking reservearea ...
+Reading from reservearea to /tmp/productlinecwmpfile ... 
+File /etc/deviceParaStatic.conf content Lanports= is worng
+[svc_cfg_load_special_info][649]SET [omci_lib_set_onu_version] Result=0
+File /etc/deviceParaStatic.conf content Lanports= is worng
+svchost_parse_print_conf: Path = /lib/libwan_svc.so 
+svchost_parse_print_conf: Entry = svc_wan_main 
+svchost_parse_print_conf: Param = 111 
+svchost_get_event_val: get param fail [0] 
+svc_wan_init: ...... reg event ok 
+svchost_parse_print_conf: Path = /lib/libpon_svc.so 
+svchost_parse_print_conf: Entry = svc_pon_main 
+svchost_parse_print_conf: Param = 111 
+svchost_get_event_val: get param fail [0] 
+svc_pon_int: ...... reg event ok 
+svc_pon_int: ...... reg method ok 
+cfg svc load done, 0 ms
+[svc_cfg_load_special_info][591]SET [omci_lib_set_max_ports_list] Result=0
+mtd[readflash]:device=reservearea tclen=1 tcoffset=1572864
+Unlocking reservearea ...
+Reading from reservearea to /tmp/dual_image_boot_flag ...
+svchost_parse_print_conf: Path = /lib/libvoip_svc.so 
+svchost_parse_print_conf: Entry = svc_voip_main 
+svchost_parse_print_conf: Param = 111 
+svc_voip_int: num = voip_mgr_polling_pthread created.
+ 4
+voip_mgr_polling_pthread entered.
+svchost_get_event_val: get param fail [0] 
+svc_voip_init: ...... reg event ok 
+svchost_parse_print_conf: Path = /lib/libcentral_ctrl_svc.so 
+svchost_parse_print_conf: Entry = svc_central_ctrl_main 
+svchost_parse_print_conf: Param = 111 
+svchost_svc_centrl_ctrl_init: ...... reg event ok 
+get_event_val: get param fail [0] 
+dev mount  is start!
+config
+config in 10 : mtd8: 00100000 00020000 "config"
+
+8
+PID=2xx event receive pthread_create OK, keep going......
+svchost_parse_print_conf: Path = /lib/libother_svc.so 
+svchost_parse_print_conf: Entry = svc_other_main 
+svchost_parse_print_conf: Param = 111 
+svchost_get_event_val: get param fail [0] 
+svc_other_init: ...... reg event ok 
+svchost_parse_print_conf: Path = /lib/libwan_related_svc.so 
+svchost_parse_print_conf: Entry = svc_wan_related_main 
+svchost_parse_print_conf: Param = 111 
+svchost_get_event_val: get param fail [0] 
+svc_wan_related_init: ...... reg event ok 
+nlksock_create:nlksock create err:Protocol not supported!
+active_notify_handler: nlksock_create fail
+File /etc/deviceParaStatic.conf content Lanports= is worng
+[svc_cfg_load_special_info][675]SET [omci_lib_set_equipment_id] Result=0
+File /etc/deviceParaStatic.conf content Lanports= is worng
+[svc_cfg_load_special_info][682]SET [oam_lib_set_hardware_version] Result=0
+File /etc/deviceParaStatic.conf content Lanports= is worng
+[svc_cfg_load_special_info][687]SET [oam_lib_set_software_version] Result=0
+File /etc/deviceParaStatic.conf content Lanports= is worng
+[svc_cfg_load_special_info][693]SET [oam_lib_set_onu_model] Result=0
+mount: Mounting /dev/mtdblock8 on /usr/config/WLan/MAP failed: No such file or directory
+Adapter_Interrupts_Init: Successfully hooked IRQ 8
+
+Adapter_Interrupts_Init: call back registeredAdapter_EIP93_Init: CmdRing_Handle=8ee41ffc
+Adapter_EIP93_Init: ResRing_Handle=8ee41ff8
+Adapter: Successfully initialized EIP93v2 in ARM mode
+PEC_Init: PRNG is initialized
+insmod ETH_LAN driver
+Unlocking config ...
+Erasing config ...
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:2
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:2
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+ifc_set_action: cpu:1, nbq:1
+fport:5, nbq:1
+macType = 0
+flashQdmaInit = 0xbb
+tso_proc_init.
+netif_napi_add() called with weight 256 on device lan_int2_if
+ether.c:v1.00-NAPI 29.Mar.2015
+eth0: FE MAC Ethernet address: 58:00:32:xx:xx:xx
+Use Internal switch ,type 10
+tcPhyVerLookUp 2420 0 
+tcPhyVerLookUp 2420 0 
+tcPhyVerLookUp 2420 0 
+tcPhyVerLookUp 2420 0 
+tcPhyVerLookUp 2420 0 
+tcPhyVerLookUp 2420 0 
+tcPhyVerLookUp 2420 0 
+tcPhyVerLookUp 2420 0 
+tcPhyVerLookUp 2420 0 
+tcPhyVerLookUp 2420 9491 
+ 7580 Ge, 
+ [tcPhyInit] in  [tcPhyInit] out , r31 = (9, 0x0) 
+  GE Rext AnaCal Done! (2)(0x1e)  
+  GE Rext AnaCal Done! (2)(0x1e)  
+  GE R45 AnaCal zcal_idx(before table) (dec: 30) (hex: 0x1e) 
+  GE R45 AnaCal Done! (cnt:2)(after table) ([7][6:0]:0x51) ([6:0]:0xd1) 
+  GE R45 AnaCal zcal_idx(before table) (dec: 30) (hex: 0x1e) 
+  GE R45 AnaCal Done! (cnt:2)(after table) ([7][6:0]:0x51) ([6:0]:0xd1) 
+  GE R45 AnaCal zcal_idx(before table) (dec: 30) (hex: 0x1e) 
+  GE R45 AnaCal Done! (cnt:2)(after table) ([7][6:0]:0x51) ([6:0]:0xd1) 
+  GE R45 AnaCal zcal_idx(before table) (dec: 30) (hex: 0x1e) 
+  GE R45 AnaCal Done! (cnt:2)(after table) ([7][6:0]:0x51) ([6:0]:0xd1) 
+ GE Tx offset AnaCal Done! (2)(0x22)  
+ GE Tx offset AnaCal Done! (8)(0x28)  
+ GE Tx offset AnaCal Done! (6)(0x26)  
+ GE Tx offset AnaCal Done! (2)(0x22)  
+ GE Tx amp AnaCal Done! (18) (0xe)
+ GE Tx amp AnaCal Done! (7) (0x19)
+ GE Tx amp AnaCal Done! (8) (0x18)
+ GE Tx amp AnaCal Done! (8) (0x18)
+tcPhyVerLookUp 2420 9491 
+ 7580 Ge, 
+ [tcPhyInit] in  [tcPhyInit] out , r31 = (10, 0x0) 
+  GE R45 AnaCal zcal_idx(before table) (dec: 30) (hex: 0x1e) 
+  GE R45 AnaCal Done! (cnt:2)(after table) ([7][6:0]:0x51) ([6:0]:0xd1) 
+  GE R45 AnaCal zcal_idx(before table) (dec: 30) (hex: 0x1e) 
+  GE R45 AnaCal Done! (cnt:2)(after table) ([7][6:0]:0x51) ([6:0]:0xd1) 
+  GE R45 AnaCal zcal_idx(before table) (dec: 30) (hex: 0x1e) 
+  GE R45 AnaCal Done! (cnt:2)(after table) ([7][6:0]:0x51) ([6:0]:0xd1) 
+  GE R45 AnaCal zcal_idx(before table) (dec: 30) (hex: 0x1e) 
+  GE R45 AnaCal Done! (cnt:2)(after table) ([7][6:0]:0x51) ([6:0]:0xd1) 
+ GE Tx offset AnaCal Done! (1)(0x1f)  
+ GE Tx offset AnaCal Done! (2)(0x1e)  
+ GE Tx offset AnaCal Done! (4)(0x24)  
+ GE Tx offset AnaCal Done! (9)(0x29)  
+ GE Tx amp AnaCal Done! (17) (0xf)
+ GE Tx amp AnaCal Done! (7) (0x19)
+ GE Tx amp AnaCal Done! (11) (0x15)
+ GE Tx amp AnaCal Done! (5) (0x1b)
+tcPhyVerLookUp 2420 9491 
+ 7580 Ge, 
+ [tcPhyInit] in  [tcPhyInit] out , r31 = (11, 0x0) 
+  GE R45 AnaCal zcal_idx(before table) (dec: 31) (hex: 0x1f) 
+  GE R45 AnaCal Done! (cnt:1)(after table) ([7][6:0]:0x48) ([6:0]:0xc8) 
+  GE R45 AnaCal zcal_idx(before table) (dec: 30) (hex: 0x1e) 
+  GE R45 AnaCal Done! (cnt:2)(after table) ([7][6:0]:0x51) ([6:0]:0xd1) 
+  GE R45 AnaCal zcal_idx(before table) (dec: 30) (hex: 0x1e) 
+  GE R45 AnaCal Done! (cnt:2)(after table) ([7][6:0]:0x51) ([6:0]:0xd1) 
+  GE R45 AnaCal zcal_idx(before table) (dec: 30) (hex: 0x1e) 
+  GE R45 AnaCal Done! (cnt:2)(after table) ([7][6:0]:0x51) ([6:0]:0xd1) 
+ GE Tx offset AnaCal Done! (3)(0x1d)  
+ GE Tx offset AnaCal Done! (7)(0x19)  
+ GE Tx offset AnaCal Done! (4)(0x24)  
+ GE Tx offset AnaCal Done! (2)(0x22)  
+ GE Tx amp AnaCal Done! (18) (0xe)
+ GE Tx amp AnaCal Done! (1) (0x1f)
+ GE Tx amp AnaCal Done! (9) (0x17)
+ GE Tx amp AnaCal Done! (4) (0x1c)
+tcPhyVerLookUp 2420 9491 
+ 7580 Ge, 
+ [tcPhyInit] in  [tcPhyInit] out , r31 = (12, 0x0) 
+  GE R45 AnaCal zcal_idx(before table) (dec: 30) (hex: 0x1e) 
+  GE R45 AnaCal Done! (cnt:2)(after table) ([7][6:0]:0x51) ([6:0]:0xd1) 
+  GE R45 AnaCal zcal_idx(before table) (dec: 30) (hex: 0x1e) 
+  GE R45 AnaCal Done! (cnt:2)(after table) ([7][6:0]:0x51) ([6:0]:0xd1) 
+  GE R45 AnaCal zcal_idx(before table) (dec: 30) (hex: 0x1e) 
+  GE R45 AnaCal Done! (cnt:2)(after table) ([7][6:0]:0x51) ([6:0]:0xd1) 
+  GE R45 AnaCal zcal_idx(before table) (dec: 30) (hex: 0x1e) 
+  GE R45 AnaCal Done! (cnt:2)(after table) ([7][6:0]:0x51) ([6:0]:0xd1) 
+ GE Tx offset AnaCal Done! (4)(0x24)  
+ GE Tx offset AnaCal Done! (1)(0x1f)  
+ GE Tx offset AnaCal Done! (3)(0x23)  
+ GE Tx offset AnaCal Done! (3)(0x23)  
+ GE Tx amp AnaCal Done! (17) (0xf)
+ GE Tx amp AnaCal Done! (2) (0x1e)
+ GE Tx amp AnaCal Done! (12) (0x14)
+ GE Tx amp AnaCal Done! (3) (0x1d)
+mount: Mounting /dev/mtdblock on /usnot found str : MAP, erase and mount again
+rdev_mount is ok 
+/config/WLan/MAP failed: No such file or directory
+eth0: starting interface.
+netif_start_queue
+SIOCGIFFLAGS: No such device
+SIOCSIFMTU: No such device
+macType = 0
+flashQdmaInit = 0xbb
+tso_proc_init.
+fe resource init start
+16 acnt1 id has been used, there is no left
+16 acnt1 id has been used, there is no left
+16 acnt1 id has been used, there is no left
+16 acnt1 id has been used, there is no left
+16 acnt1 id has been used, there is no left
+16 acnt1 id has been used, there is no left
+16 acnt1 id has been used, there is no left
+16 acnt1 id has been used, there is no left
+16 acnt1 id has been used, there is no left
+16 acnt1 id has been used, there is no left
+16 acnt1 id has been used, there is no left
+16 acnt1 id has been used, there is no left
+16 acnt1 id has been used, there is no left
+16 acnt1 id has been used, there is no left
+16 acnt1 id has been used, there is no left
+16 acnt1 id has been used, there is no left
+===hw_nat init version=20220209===
+Ralink HW NAT Module Enabled
+you need to modify struct FoeEntryExtKernel in ecnt_forward_left_to_right.h when you modifyied struct FoeEntryExt!HWNAT Module enabled with Type:L2B/IPv4/IPv6/DS-LITE/6RD, foeSize:64B, sram_foeNum:16384, dram_foeNum:16384
+IP check use Black List
+val_string:add v4 - 445 - -
+
+dport:0, sport:445, daddr:0, saddr:0
+INSMOD LDDLA
+
+ MD32 INIT 
+
+ EN7572 RESET 
+0x408 = 0x1388
+0x40A = 0x007d
+
+IC detect: 757x
+Read Data from File OK
+
+MD32 PM load data done! 
+
+MD32 DM load data done! 
+
+MD32 BOB load data done! 
+
+MD32 INIT DONE!!! 
+
+____________________________________________
+* PHY_VERSION:  X.17        Date: 20200609 *
+Note : General
+FW Compile Date: Mar  9 2022, Time: 12:12:42
+EN7580_SERDES
+__LITTLE_ENDIAN
+SCU_HIR = 0xa
+SCU_WAN_CONF_REG_WAN_SEL=10
+debugLevel=0x83
+CT do los_status_init
+SCU_WAN_CONF_REG_WAN_SEL=10
+XGSPON mode
+pon_phy_func_init mode 10, product id = 0xa
+[pon_phy_func_init:330] EN7580 XGSPON mode
+____________________________________________
+
+
+[phy_write_proc:687] WARNING ! xpon_phy NOT init !
+--------------SET_PMA_OPT-------------- 
+SCU_WAN_CONF_REG_WAN_SEL=10
+XGSPON mode
+set pma_optimize_val = 0xc11a5c20
+--------------------------------------- 
+7
+xPON driver initialing.
+ No XEPON init, pon mode:7 
+
+[SW] set xpon_mode=1 
+
+_______ PHY init step 1 _______ (start)
+[pon_phy_mod_init:666]mac_set_phy_init_step=1
+SCU_WAN_CONF_REG_WAN_SEL=10
+XGSPON mode
+pon_phy_func_init mode 1, product id = 0xa
+[pon_phy_func_init:330] EN7580 XGSPON mode
+Vendor ID and PN found in trans IOT list! index = 82
+trans vendor ID : ECONET
+trans vendor PN : EN7572
+Read XGPON_PHY_SFP_VLD_LEVEL(0xbfaf0b48)=0x0 
+Set XGPON_PHY_SFP_VLD_LEVEL(0xbfaf0b48)=0x9 
+Read XPON_PMA_XPON_SETTING_0(0xbfaf3600)=0x10001 
+Set XPON_PMA_XPON_SETTING_0(0xbfaf3600)=0x10001 
+Read XPON_PMA_XPON_SETTING_1(0xbfaf3604)=0x1010100 
+Set XPON_PMA_XPON_SETTING_1(0xbfaf3604)=0x1010100 
+xpon_pma_param_disp (wan_sel = 10)
+% LCPLL_Mode = 5
+% FM_Mode = 5
+% RX_Mod = 1
+% TX_Mode = 1
+% TX_Bist_Pattern = 0
+% LoopBack_Path = 0
+% Trans_Ben_Active_Level = 0
+EN7580_EFUSE: 1
+DA_XPON_TX_TERMP_SEL[1:0]=3
+DA_XPON_TX_TERMN_SEL[1:0]=3
+EN7580_EFUSE: 1
+RG_XPON_RX_FE_500HMS_SEL[1:0]=1
+======= 350ms delay =======
+init pma_optimize_val = 0xc11a5c20
+Read XGPON_RX_SYNC_CTRL=0x20202 
+Set XGPON_RX_SYNC_CTRL=0x30202 
+_______ PHY init step 1 _______ (done)
+
+phy_trans_power_switch __ON__
+[FW] Final phy_mode_config mode=1
+[FW] Final phy_tx_enable mode=1
+10GxPONMAC V1.0.0.0 (Mar  9 2022-12:14:04)
+xPON interrupt initialization
+XPON Mapping Module init OK!
+vtag_drv_init
+
+tc_multiwan version: tcsmux V1.1.0.0 (Nov  9 2020-00:16:47).
+
+tcportbind version: tcportbind V1.1.0.0 (Nov  9 2020-00:16:51).
+device eth0 entered promiscuous mode
+interface eth1 does not exist!
+VoIPBasic_Common SIPProtocol is SIP
+prevSipStatus: 0, curSipStatus: 0
+[1970-1-1 Thu 00:00:1x.xxxxxx]omci start!
+[1970-1-1 Thu 00:00:1x.xxxxxx][main][1152]:Enter OMCI State Machine, OMCI_STATE_START!
+[1970-1-1 Thu 00:00:1x.xxxxxx][main][1170]:Enter OMCI State Machine, OMCI_STATE_START change to OMCI_STATE_IDLE!
+voip_evt.buf: root.voipbasic.common, type: 3, evt_id: 0x000001c0
+pon_vlan_init
+
+Multi Lan port
+
+ initilize xpon igmp module ver:20220209
+done!
+pon_mac_filter_init
+
+Multi Lan portinsmod: cannot open module `/lib/modules/brg_shortcut.ko': No such file or directory
+device eth0.1 is not a slave of br0
+device eth0.2 is not a slave of br0
+device eth0.3 is not a slave of br0
+device eth0.4 is not a slave of br0
+device eth0 is already a member of a bridge; can't enslave it to bridge br0.
+ponTime:ONU Ready
+mtd[readflash]:device=reservearea tclen=262144 tcoffset=786432
+Unlocking reservearea ...
+Reading from reservearea to /tmp/prolinecwmppararead ... 
+mtd[readflash]:device=reservearea tclen=262144 tcoffset=786432
+Unlocking reservearea ...
+Reading from reservearea to /tmp/prolinecwmppararead ... 
+mtd[readflash]:device=reservearea tclen=1 tcoffset=1572864
+Unlocking reservearea ...
+Reading from reservearea to /tmp/dual_image_boot_flag ... 
+mtd[readflash]:device=reservearea tclen=1 tcoffset=1572864
+Unlocking reservearea ...
+Reading from reservearea to /tmp/dual_image_boot_flag ... 
+svch[sendEponOamCmdMsg][109]:sendEponOamCmdMsg open message queue fail!
+ost_get_event_val: get param fail [0] 
+
+[1970-1-1 Thu 00:00:2x.xxxxxx]do not config omci intance by file info
+
+[1970-1-1 Thu 00:00:2x.xxxxxx][main][1180]:Current State OMCI_STATE_IDLE, recv CONDITION_CFG_DONE change to OMCI_STATE_INIT!
+sh: cannot create /proc/gpon/debug: Directory nonexistent
+
+_______ PHY init step 2 _______ (start)
+[xpon_phy_start:769]mac_set_phy_init_step=2
+_______ PHY init step 2 _______ (done)
+
+
+[1970-1-1 Thu 00:00:2x.xxxxxx][main][1206]:Current State OMCI_STATE_INIT, recv CONDITION_ONU_READY change to OMCI_STATE_RUN!
+ctromfile.cfg
+device eth0 left promiscuous mode
+br0: port 1(eth0) entered disabled state
+device eth0.1 entered promiscuous mode
+Unlocking romfile ...
+Writing from /tmp/tc_store_romfile.conf to romfile ... 
+ [ ][e][w]not Error writing tclinux,mtd=romfile.
+
+Unlocking reservearea ...
+Erase one sector from 0x0 of reservearea ... 
+tcoffset:0x0,mtdInfo.size:0x1c0000 size-1:1ffff
+enter real action ----- tcoffset:0x0
+[e]mtd[writeflash]:device=reservearea tclen=262144 tcoffset=0 tcfilelen =7403
+Unlocking reservearea ...
+Writing from /tmp/tc_store_romfile.conf to reservearea ... 
+enter real action -----tclen:0x40000,tcoffset:0x0
+writeflash: write 0 'st sector,start from 0x0,0x20000 bytes
+[e][w]enter real action -----tclen:0x20000,tcoffset:0x20000
+writeflash: write 1 'st sector,start from 0x20000,0x20000 bytes
+read:count <= 0
+writeflash: total write 0x1ceb bytes
+
+device eth0.2 entered promiscuous mode
+device eth0.3 entered promiscuous mode
+device eth0.4 entered promiscuous mode
+ - POLLING - __START__ 
+ | POLLING => READY(1) ReadyStatus=1,LosStatus=0
+ - POLLING - __END__ (0)(1)(0) Get phy_status = 1 (0)(1)
+SIOCGIFFLAGS: No such device
+interface eth0.5 does not exist!
+killall: epon_oam: no process killed
+four ports
+svchost_get_event_val: get param fail [0] 
+set_virtualdev_ifname_in_arrray,1360,wan[0]:virtualdev_name=nas0_0 dev_name=pon
+
+mulif_ioctl_handler: set ipversion dev name is nas0_0 , ipversion is 00
+
+==>setipversion_mulif_device device name is nas0_0, ipversion is 00
+Illegal target name 'vbind_entry0_chain'.
+Chain 'vbind_entry0_chain' doesn't exist.
+Illegal target name 'vbind_entry1_chain'.
+Chain 'vbind_entry1_chain' doesn't exist.
+Illegal target name 'vbind_entry2_chain'.
+Chain 'vbind_entry2_chain' doesn't exist.
+Illegal target name 'vbind_entry3_chain'.
+Chain 'vbind_entry3_chain' doesn't exist.
+Illegal target name 'vbind_entry4_chain'.
+Chain 'vbind_entry4_chain' doesn't exist.
+Illegal target name 'vbind_entry5_chain'.
+Chain 'vbind_entry5_chain' doesn't exist.
+Illegal target name 'vbind_entry6_chain'.
+Chain 'vbind_entry6_chain' doesn't exist.
+Illegal target name 'vbind_entry7_chain'.
+Chain 'vbind_entry7_chain' doesn't exist.
+Illegal target name 'vbind_entry8_chain'.
+Chain 'vbind_entry8_chain' doesn't exist.
+Illegal target name 'vbind_entry9_chain'.
+Chain 'vbind_entry9_chain' doesn't exist.
+The path is invalid, and the path should include entry.
+NETDEV_UP: wan_itf_info[0].valid=1, wan_itf_info[0].wan_dev=nas0_0
+NETDEV_UP: wan_itf_info[1].valid=0, wan_itf_info[1].wan_dev=NULL
+NETDEV_UP: wan_itf_info[2].valid=0, wan_itf_info[2].wan_dev=NULL
+NETDEV_UP: wan_itf_info[3].valid=0, wan_itf_info[3].wan_dev=NULL
+NETDEV_UP: wan_itf_info[4].valid=0, wan_itf_info[4].wan_dev=NULL
+NETDEV_UP: wan_itf_info[5].valid=0, wan_itf_info[5].wan_dev=NULL
+NETDEV_UP: wan_itf_info[6].valid=0, wan_itf_info[6].wan_dev=NULL
+NETDEV_UP: wan_itf_info[7].valid=0, wan_itf_info[7].wan_dev=NULL
+NETDEV_UP: wan_itf_info[8].valid=0, wan_itf_info[8].wan_dev=NULL
+NETDEV_UP: wan_itf_info[9].valid=0, wan_itf_info[9].wan_dev=NULL
+NETDEV_UP: wan_itf_info[10].valid=0, wan_itf_info[10].wan_dev=NULL
+NETDEV_UP: wan_itf_info[11].valid=0, wan_itf_info[11].wan_dev=NULL
+NETDEV_UP: wan_itf_info[12].valid=0, wan_itf_info[12].wan_dev=NULL
+NETDEV_UP: wan_itf_info[13].valid=0, wan_itf_info[13].wan_dev=NULL
+NETDEV_UP: wan_itf_info[14].valid=0, wan_itf_info[14].wan_dev=NULL
+NETDEV_UP: wan_itf_info[15].valid=0, wan_itf_info[15].wan_dev=NULL
+device nas0_0 entered promiscuous mode
+svchost_get_event_val: get param fail [0] 
+sh: cannot create /proc/tc3162/lan_ip_mask: Directory nonexistent
+mtd[readflash]:device=reservearea tclen=4096 tcoffset=262144
+romfile prtoto:SIP, upgrade proto:
+call_boot call boot success 
+Unlocking reservearea ...
+Reading from reservearea to /tmp/crash_info ... 
+sh: cannot create /proc/tc3162/lan_ip_mask: Directory nonexistent
+
+qos_discipline_init
+br0: port 5(nas0_0) entered forwarding state
+br0: port 5(nas0_0) entered forwarding state
+br0: port 4(eth0.4) entered forwarding state
+br0: port 4(eth0.4) entered forwarding state
+br0: port 3(eth0.3) entered forwarding state
+br0: port 3(eth0.3) entered forwarding state
+br0: port 2(eth0.2) entered forwarding state
+br0: port 2(eth0.2) entered forwarding state
+br0: port 1(eth0.1) entered forwarding state
+br0: port 1(eth0.1) entered forwarding state
+SIOCSIFADDR: File exists
+insmod: cannot open module `/lib/modules/4.4.115/kernel/net/sched/act_mirred.ko': No such file or directory
+mtd[readflash]:device=reservearea tclen=262144 tcoffset=786432
+Unlocking reservearea ...
+Reading from reservearea to /tmp/prolinecwmppararead ... 
+insmod: cannot open module `/lib/modules/4.4.115/kernel/net/sched/cls_fw.ko': No such file or directory
+
+Bootloader is up to date, upgrade is not triggered!!!
+insmod: cannot open module `/lib/modules/4.4.115/kernel/net/sched/sch_htb.ko': No such file or directory
+insmod: cannot open module `/lib/modules/4.4.115/kernel/net/sched/sch_prio.ko': No such file or directory
+SIOCGIFFLAGS: No such device
+mtd[readflash]:device=reservearea tclen=262144 tcoffset=786432
+Unlocking reservearea ...
+Reading from reservearea to /tmp/prolinecwmppararead ... 
+insmod: cannot open module `/lib/modules/igmpsnoop.ko': No such file or directory
+insmod: cannot open module `/lib/modules/mldsnooping.ko': No such file or directory
+
+soft_ratelimit_init
+lro_module_init
+lro_module_init
+* doPhyMMDWrite => phyaddr=9, dev_addr=31, data_addr=0x0269 , value=0x144F
+* doPhyMMDWrite => phyaddr=9, dev_addr=31, data_addr=0x0271 , value=0x7E0E
+* doPhyMMDWrite => phyaddr=9, dev_addr=31, data_addr=0x0272 , value=0x7CFF
+* Phyaddr=9 RegAddr=23 value=00B0
+* doPhyMMDWrite => phyaddr=9, dev_addr=30, data_addr=0x003E , value=0x0000
+* Phyaddr=10 RegAddr=23 value=00B0
+* doPhyMMDWrite => phyaddr=10, dev_addr=30, data_addr=0x003E , value=0x0000
+* Phyaddr=11 RegAddr=23 value=00B0
+* doPhyMMDWrite => phyaddr=11, dev_addr=30, data_addr=0x003E , value=0x0000
+* Phyaddr=12 RegAddr=23 value=00B0
+* doPhyMMDWrite => phyaddr=12, dev_addr=30, data_addr=0x003E , value=0x0000
+* Phyaddr=9 RegAddr=00 value=0800
+* Phyaddr=10 RegAddr=00 value=0800
+* Phyaddr=11 RegAddr=00 value=0800
+* Phyaddr=12 RegAddr=00 value=0800
+
+url_filter_init
+TCSUPPORT_CT_NETWORKMANAGESERVICE:no need to start utelnetd up in rcs!
+TCSUPPORT_CT_NETWORKMANAGESERVICE:no need to use inetd!
+IdleTimeoutText duplicate, please check!
+
+[01/Jan/1970:00:00:29 +0000] boa: server version Boa/0.94.13
+[01/Jan/1970:00:00:29 +0000] boa: server built Mar  9 2022 at 12:34:24.
+[01/Jan/1970:00:00:29 +0000] boa: starting server pid=9xx, port 80
+TC3162 hardware watchdog initialized
+cpu 3
+cpu 2
+cpu 1
+cpu 0
+
+SIOCSIFMTU: No such device
+vlan tag restore switch : enable
+0===errno:0
+ errmessage:Success
+1===errno:0
+ errmessage:Success
+2==errno:0
+ errmessage:Success
+0===errno:0
+ errmessage:Success
+1===errno:0
+ errmessage:Success
+2==errno:0
+ errmessage:Success
+BusyBox v1.00 (2022.03.09-11:33+0000) multi-call binary
+
+Usage: taskset [OPTIONS] [mask] [pid | command [arg]...]
+
+
+bind cpu1
+0===errno:0
+ errmessage:Success
+1===errno:0
+ errmessage:Success
+2==errno:0
+ errmessage:Success
+0===errno:0
+ errmessage:Success
+1===errno:0
+ errmessage:Success
+2==errno:0
+ errmessage:Success
+0===errno:0
+ errmessage:Success
+1===errno:0
+ errmessage:Success
+2==errno:0
+ errmessage:Success
+0===errno:0
+ errmessage:Success
+1===errno:0
+ errmessage:Success
+2==errno:0
+ errmessage:Success
+0===errno:0
+ errmessage:Success
+1===errno:0
+ errmessage:Success
+2==errno:0
+ errmessage:Success
+0===errno:0
+ errmessage:Success
+1===errno:0
+ errmessage:Success
+2==errno:0
+ errmessage:Success
+0===errno:0
+ errmessage:Success
+1===errno:0
+ errmessage:Success
+2==errno:0
+ errmessage:Success
+0===errno:0
+ errmessage:Success
+1===errno:0
+ errmessage:Success
+2==errno:0
+ errmessage:Success
+0===errno:0
+ errmessage:Success
+1===errno:0
+ errmessage:Success
+2==errno:0
+ errmessage:Success
+
+mtd[readflash]:device=reservearea tclen=262144 tcoffset=786432
+Unlocking reservearea ...
+Reading from reservearea to /tmp/prolinecwmppararead ... 
+done
+
+* XSI_VERSION:X.1    Date: 20200408 *
+Note : General
+PHY FW Compile Date : Mar  9 2022 : Time : 12:13:46
+FE_GENTIME : FPGA Date : 0 : Time : 0
+EN7580_SERDES
+__LITTLE_ENDIAN
+SCU_HIR is 0xa
+_________________________________________
+xsi mac driver init 
+
+[SW] set xsi_mode=0 
+
+________ PHY init step 1 ________
+[xsi_phy_mode_init:1077] ...... start
+xsi_phy_func_init mode 0
+[xsi_phy_func_init:865] EN7580 XFI 10G mode
+[en7580_xfi_phy_reset:1027]
+Reset XFI PHY ! 
+xsi_pma_init
+<ISR> Unexpected! fw=0x1, EN=0x003d026f XGPON ISR=1=0+0+0+0+1,REG IntStatus=0x00000020
+<ISR> Unexpected! fw=0x1, EN=0x003d026f XGPON ISR=2=0+0+0+0+2,REG IntStatus=0x00000020
+<ISR> RX_LOF XGPON ISR=3=0+0+0+1+2,REG IntStatus=0x00000004
+<ISR> Unexpected! fw=0x1, EN=0x003d026f XGPON ISR=4=0+0+0+1+3,REG IntStatus=0x00000002
+[FW] Final xsi_phy_mode_config mode=0
+
+________ PHY init step 2 ________
+[xsi_phy_start:1154] ...1
+xsi mac driver init OK  
+killall: epon_oam: no process killed
+device eth1 entered promiscuous mode
+br0: port 6(eth1) entered forwarding state
+br0: port 6(eth1) entered forwarding state
+
+ - POLLING - __START__ 
+ - POLLING - __END__ (0)(1)(0) Get phy_status = 1 (0)(2)
+
+svc_other_evt_internal_deal: param get fail.Bootloader Version:BL1.2variant:13svchost_get_event_val: get param fail [0] 
+[do_blapi_traffic_mdio_write]1151: *MIDO Write PhyAddr=0 DevAddr=30 Reg=0x4000 value:0x0060
+[do_blapi_traffic_mdio_write]1151: *MIDO Write PhyAddr=0 DevAddr=30 Reg=0x4001 value:0x0280
+[do_blapi_traffic_mdio_write]1151: *MIDO Write PhyAddr=0 DevAddr=30 Reg=0x4000 value:0x0060
+[do_blapi_traffic_mdio_write]1151: *MIDO Write PhyAddr=0 DevAddr=30 Reg=0x4001 value:0x0280
+[do_blapi_traffic_mdio_write]1151: *MIDO Write PhyAddr=0 DevAddr=3 Reg=0x0000 value:0xa040
+[do_blapi_traffic_mdio_write]1151: *MIDO Write PhyAddr=0 DevAddr=30 Reg=0xc430 value:0x0080
+[do_blapi_traffic_mdio_write]1151: *MIDO Write PhyAddr=0 DevAddr=30 Reg=0xc431 value:0xc060
+[do_blapi_traffic_mdio_write]1151: *MIDO Write PhyAddr=0 DevAddr=30 Reg=0x031c value:0x0300
+[do_blapi_traffic_mdio_write]1151: *MIDO Write PhyAddr=0 DevAddr=30 Reg=0x031f value:0x0200
+[do_blapi_traffic_mdio_write]1151: *MIDO Write PhyAddr=0 DevAddr=7 Reg=0x003c value:0x000c
+[do_blapi_traffic_mdio_write]1151: *MIDO Write PhyAddr=0 DevAddr=7 Reg=0x0000 value:0x3200
+
+tc3162ser_startup 
+
+Please press Enter to activate this console. 
