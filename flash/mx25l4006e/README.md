@@ -4,6 +4,7 @@
 
 [Link to datasheet](./mx25l4006e-datasheet.pdf)
 
+
 ## Memory dump
 
 The [memory dump (.bin)](./mx25l4006e.bin) can be found here.
@@ -14,6 +15,7 @@ Seemingly encrypted(?).
 ### Entropy
 
 ![entropy of memory dump](./mx25l4006e-entropy.png)
+
 
 ### Strings
 
