@@ -32,8 +32,8 @@ Points-of-interest:
 
 Points-of-interest:
 
-- U10 - mx25l4006e flash chip, bottom left (see [mx25l4006e](./flash/mx25l4006e/README.md))
-- U7 - w25n01gvzeig SPI NAND flash chip, top (see [w25n01gvzeig](./flash/w25n01gvzeig/README.md))
+- U10 - mx25l4006e flash chip, bottom left (see [mx25l4006e](./flash/mx25l4006e/))
+- U7 - w25n01gvzeig SPI NAND flash chip, top (see [w25n01gvzeig](./flash/w25n01gvzeig/))
 
 
 ## Findings
