@@ -64,7 +64,7 @@ Where the number `ii` seemingly translates to the OUI part of the MAC address. \
 Using the public listing of [IEEE's MA-L Assignments](http://standards-oui.ieee.org/oui/oui.csv), the order in which the Genexis blocks are registered seem to indicate which OUI to use. \
 For instance, if `ii` is `05`, it's the 5th OUI block registered by Genexis.
 
-These are Genexis' OUIs in which they were registered:
+These are Genexis' OUIs in order in which they were registered:
 
 - 34E380
 - BC62D2
